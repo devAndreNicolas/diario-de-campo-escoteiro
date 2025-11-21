@@ -78,7 +78,7 @@ Rodamos scripts para configurar tudo para você:
 npm run setup
 ```
 
-> **Nota:** Os scripts usam as credenciais padrão `adminterto:adminterto`. Se você mudou a senha do seu CouchDB, edite os arquivos em `scripts/` ou o `.env.local`.
+> **Nota:** Os scripts usam as credenciais padrão `admin:admin`. Se você mudou a senha do seu CouchDB, edite os arquivos em `scripts/` ou o `.env.local`.
 
 ### 3. Configurar URL do CouchDB (Opcional)
 
@@ -274,7 +274,7 @@ public/
 ## 🔧 Troubleshooting
 
 ### Erro "Unauthorized" ou 401
-1. Verifique se a senha no `.env.local` está correta (padrão: `adminterto`)
+1. Verifique se a senha no `.env.local` está correta (padrão: `admin`)
 2. Tente logar no painel do CouchDB (`http://localhost:5984/_utils`) com essas credenciais
 3. Se mudou a senha, atualize o `.env.local` e os scripts em `scripts/`
 
