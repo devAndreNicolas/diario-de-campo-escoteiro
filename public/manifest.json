@@ -1,0 +1,43 @@
+{
+    "name": "Diário de Campo Escoteiro",
+    "short_name": "Diário Escoteiro",
+    "description": "Aplicação offline-first para escoteiros registrarem suas aventuras",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#4B0082",
+    "theme_color": "#4B0082",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": [
+        "productivity",
+        "lifestyle"
+    ],
+    "screenshots": [],
+    "shortcuts": [
+        {
+            "name": "Nova Entrada",
+            "short_name": "Nova",
+            "description": "Criar nova entrada no diário",
+            "url": "/?action=new",
+            "icons": [
+                {
+                    "src": "/icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ]
+}

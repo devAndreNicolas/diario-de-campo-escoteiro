@@ -1,0 +1,35 @@
+{
+  "name": "diariodecampoescoteiro",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "setup": "node scripts/setup-db.js && node scripts/setup-cors.js",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "events": "^3.3.0",
+    "localforage": "^1.10.0",
+    "node-fetch": "^3.3.2",
+    "pouchdb": "^9.0.0",
+    "pouchdb-browser": "^9.0.0",
+    "pouchdb-find": "^9.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/uuid": "^9.0.8",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4",
+    "typescript": "~5.5.3",
+    "vite": "^5.3.4"
+  }
+}
